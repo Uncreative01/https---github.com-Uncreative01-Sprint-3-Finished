@@ -1,0 +1,42 @@
+/* Home.css */
+.home-container {
+  text-align: center;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+
+.product-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}
